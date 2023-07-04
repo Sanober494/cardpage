@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:cardpage/constants/color_constants.dart';
 import 'package:cardpage/screens/base_scren.dart';
 import 'package:cardpage/screens/home_screen.dart';
+import 'package:cardpage/screens/profile.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         ),
         primarySwatch: Colors.blue,
       ),
-      home: BaseScreen(),
+      home: SettingsUI(),
     );
   }
 }
