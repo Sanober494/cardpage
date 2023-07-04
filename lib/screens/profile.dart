@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cardpage/screens/base_scren.dart';
 
 class SettingsUI extends StatelessWidget {
   @override
@@ -128,7 +129,12 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     ),
                   ),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => BaseScreen()),
+                      );
+                    },
                     style: ElevatedButton.styleFrom(
                       primary: Colors.green,
                       padding: EdgeInsets.symmetric(horizontal: 50),
