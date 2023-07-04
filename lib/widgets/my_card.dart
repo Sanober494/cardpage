@@ -10,7 +10,7 @@ class MyCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(20),
-      height: 200,
+      height: 180,
       width: 350,
       decoration: BoxDecoration(
         color: card.cardColor,
